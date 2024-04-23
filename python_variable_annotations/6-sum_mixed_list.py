@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""  function to_kv that takes a string k and an int OR float v as argument"""
+"""  sum_mixed_list which takes a list mxd_lst of integers """
 
 from typing import List, Union
 
 
-def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
+def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
     """
-    Takes a string k and an int OR float v as arguments and returns a tuple.
-    The first element of the tuple is the string k.
-    The second element is the square of the int/float v, annotated as a float.
+    Accept a mixed list of integers and float and returns their sum as a float.
     """
-    return k, v ** 2.0
+    total_sum: float = 0.0
+    for item in mxd_lst:
+        total_sum += item
+    return total_sum
