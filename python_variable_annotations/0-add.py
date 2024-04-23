@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""A type-annotated function add"""
 
-def add(x: float, y: float) -> float:
-    print("{} + {} = {}".format(a, b, add(a, b)))
+
+def add(a: float, b: float) -> float:
+    """A type-annotated func add that takes a float a and a float b
+    as arguments and returns their sum as a float"""
+    return a + b
