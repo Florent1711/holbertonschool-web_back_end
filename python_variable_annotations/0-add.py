@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
-"""Fonction add annotée par type qui prend un float en a et b"""
 
+if __name__ == "__main__":
+    """Print the sum of 1 and 2."""
+    from add_0 import add
 
-def add(x: float, y: float) -> float:
-    return x + y
+    a = 1
+    b = 2
+    print("{} + {} = {}".format(a, b, add(a, b)))
