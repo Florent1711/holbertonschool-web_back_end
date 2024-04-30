@@ -12,6 +12,10 @@
 4-match - Write a script that lists all documents with name="Holberton school" in the collection school:
     • The database name will be passed as option of mongo command
 
-Write a script that displays the number of documents in the collection school:
+5-count - Write a script that displays the number of documents in the collection school:
+    • The database name will be passed as option of mongo command
 
-5-count - The database name will be passed as option of mongo command
+6-update - Write a script that adds a new attribute to a document in the collection school:
+    • The script should update only document with name="Holberton school" (all of them)
+    • The update should add the attribute address with the value “972 Mission street”
+    • The database name will be passed as option of mongo command
