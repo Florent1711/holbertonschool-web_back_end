@@ -5,7 +5,7 @@ from bson import ObjectId
 
 
 def insert_school(mongo_collection, **kwargs):
-    # insert the new document and get the insert id
+    """ insert the new document and get the insert id"""
     insert_result = mongo_collection.insert_one(kwargs)
 
     # Return the new id
