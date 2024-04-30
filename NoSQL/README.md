@@ -11,3 +11,7 @@
 
 4-match - Write a script that lists all documents with name="Holberton school" in the collection school:
     • The database name will be passed as option of mongo command
+
+Write a script that displays the number of documents in the collection school:
+
+5-count - The database name will be passed as option of mongo command
