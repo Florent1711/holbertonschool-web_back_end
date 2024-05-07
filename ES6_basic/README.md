@@ -10,3 +10,5 @@ function taskNext to instantiate variables using let
 3-default-parameter.js - Condense the internals of the following function to 1 line - without changing the name of each function/variable.
 Hint: The key here to define default parameter values for the function parameters.
 
+4-rest-parameter.js - Modify the following function to return the number of arguments passed to it using the rest parameter syntax
+
