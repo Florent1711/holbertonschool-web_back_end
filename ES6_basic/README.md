@@ -21,3 +21,5 @@ Modify the following function’s budget object to simply use the object propert
 
 8-getBudgetCurrentYear.js - Rewrite the getBudgetForCurrentYear function to use ES6 computed property names on the budget object
 
+9-getFullBudget.js - Rewrite getFullBudgetObject to use ES6 method properties in the fullBudget object
+
