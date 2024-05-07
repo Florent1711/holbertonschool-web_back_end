@@ -16,3 +16,5 @@ Hint: The key here to define default parameter values for the function parameter
 
 6-string-interpolation.js - Rewrite the return statement to use a template literal so you can the substitute the variables you’ve defined.
 
+7-getBudgetObject.js - Notice how the keys and the variable names are the same?
+Modify the following function’s budget object to simply use the object property value shorthand syntax instead.
