@@ -13,3 +13,6 @@ Hint: The key here to define default parameter values for the function parameter
 4-rest-parameter.js - Modify the following function to return the number of arguments passed to it using the rest parameter syntax
 
 5-spread-operator.js - Using spread syntax, concatenate 2 arrays and each character of a string by modifying the function below. Your function body should be one line long.
+
+6-string-interpolation.js - Rewrite the return statement to use a template literal so you can the substitute the variables you’ve defined.
+
