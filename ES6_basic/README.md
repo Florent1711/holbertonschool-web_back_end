@@ -18,3 +18,6 @@ Hint: The key here to define default parameter values for the function parameter
 
 7-getBudgetObject.js - Notice how the keys and the variable names are the same?
 Modify the following function’s budget object to simply use the object property value shorthand syntax instead.
+
+8-getBudgetCurrentYear.js - Rewrite the getBudgetForCurrentYear function to use ES6 computed property names on the budget object
+
