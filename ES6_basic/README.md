@@ -23,3 +23,5 @@ Modify the following function’s budget object to simply use the object propert
 
 9-getFullBudget.js - Rewrite getFullBudgetObject to use ES6 method properties in the fullBudget object
 
+10-loops.js - Rewrite the function appendToEachArrayValue to use ES6’s for...of operator. And don’t forget that var is not ES6-friendly.
+
