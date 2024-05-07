@@ -1,11 +1,15 @@
-function taskFirst() {
-    // Assuming you have variables that can be declared with const
-    const someVariaable = 'value';
-
+export function taskFirst() {
+    const task = 'I prefer const when I can.';
+    return task;
 }
 
-function taskNext() {
-    // Assuming you have variables that can be declared with let
-    let anotherVariaable = 'another value';
-    // ... rest of your code
+export function getLast() {
+    return ' is okay';
+}
+
+export function taskNext() {
+    let combination = 'But sometimes let';
+    combination += getLast();
+
+    return combination;
 }
