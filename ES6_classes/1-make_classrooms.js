@@ -7,5 +7,5 @@ export default function initializeRooms() {
   for (const size of sizes) {
     classArray.push(new ClassRoom(size));
   }
-  return classArray;
+  return classArray
 }
