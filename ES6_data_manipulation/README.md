@@ -14,3 +14,7 @@ _**2-get_students_by_loc.js**_ - Create a function getStudentsByLocation that re
 It should accept a list of students (from getListStudents) and a city (string) as parameters.
 You must use the filter function on the array.
 
+**_3-get_ids_sum.js_**  - Create a function getStudentIdsSum that returns the sum of all the student ids.
+It should accept a list of students (from getListStudents) as a parameter.
+You must use the reduce function on the array.
+
